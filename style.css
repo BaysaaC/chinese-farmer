@@ -1,0 +1,74 @@
+body {
+    max-width: 90%;
+    /* margin:25px 50px 25px 50px; */
+}
+header {
+    background-color:lightcyan;
+    color:darkslategrey;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align:center;
+}
+
+img { 
+    margin : 10px 10px 10px 10px;
+}
+p, ol {
+    font-family:Georgia, "Times News Roman", serif;
+    font-size:120%;
+    color:midnightblue;
+    line-height:150%
+}
+
+blockquote {
+    color:green;
+    font-style:italic;
+    font-size:120%;
+    width:50%;
+    margin:0 25%;
+}
+
+table {
+    text-align:center;
+    font-family:Georgia, "Times News Roman", serif;
+    font-size:120%;
+    color:darkslategrey;
+}
+
+table > thead {
+    font-weight:bold;
+    font-size:150%;
+}
+
+caption {
+    font-weight:bold;
+    font-style:italic;
+}
+
+a:link {
+    display:inline-block;
+    background-color: midnightblue;
+    color:white;
+    height:fit-content;
+    width:fit-content;
+    text-decoration: none;
+    text-align:center;
+    padding:5px 5px;
+    margin:2px;
+}
+
+a:hover {
+    color:midnightblue;
+    background-color:white;
+    font-weight:bold;
+}
+
+a:active {
+    background-color:orangered;
+    color:white;
+}
+
+a:visited {
+    background-color:grey;
+    color:white;
+}
